@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>flexbox</title>
+	<style type="text/css">
+		@media(min-width: 768px){
+			.container1{
+         display: flex;
+         /*align-items: flex-start; to aligh the items acc. to the data
+         flex-direction: column;*/
+		}
+		.container2{
+           display: flex;
+          
+     
+           justify-content:flex-end;
+		}
+		}
+		.container1 div, .container2 div{
+			border:2px solid black;
+			padding:10px;
+		}
+		.container2{
+			width:20px;
+					}
+		.box1{
+          flex:2;
+          order:2;
+		}
+		.box2{
+        flex:1;
+        order: 1;
+        		}
+		.box3{
+		flex: 1;
+		order:3;
+		}
+		.box4{
+			flex:1;
+			order:1;
+		}
+		.box5{
+			flex:1;
+			order:2;
+		}
+		.box6{
+			flex:1;
+			order:3;
+		}
+	</style>
+</head>
+<body>
+	<div class="container1">
+<div class="box1">
+	<h3>box1</h3>
+	<p>hello</p>
+</div>
+<div class="box2">
+	<h3>box2</h3>
+	<p>hii
+	sfsf
+sgsf
+sg
+sdff
+sdf
+sdf
+</p>
+</div>
+<div class="box3">
+	<h3> box3</h3>
+	<p>bye
+	fgf
+sdf
+sdv
+sdv
+dvb
+sdvb
+sdb
+b
+db
+</p>
+</div>
+</div>
+	<div class="container2">
+<div class="box4">
+	<h3>box4</h3>
+	<p>hello</p>
+</div>
+<div class="box5">
+	<h3>box5</h3>
+	<p>hii
+	sfsf
+sgsf
+sg
+sdff
+sdf
+sdf
+</p>
+</div>
+<div class="box6">
+	<h3> box6</h3>
+	<p>bye
+	fgf
+sdf
+sdv
+sdv
+dvb
+sdvb
+sdb
+b
+db
+</p>
+</div>
+</div>
+
+</body>
+</html>

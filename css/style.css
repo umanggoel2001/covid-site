@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Merriweather:wght@300&family=Montaga&display=swap');
+
+
+
+body {
+ background-image :url("..\\images\\img5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+form{
+	text-align:center;
+
+}
+table{
+	padding-left: 180px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.form1 {
+	margin-left:300px;
+	margin-right: 300px;
+	margin-top: 150px;
+	border:2px solid white;
+font-family: 'Balsamiq Sans', cursive;
+color: white;
+	
+}
+.label1{
+	color:white;
+	line-height: 2em;
+}
+.input1{
+	margin-left:5px;
+
+}
+h1{
+	color: white;
+	font-family: 'Merriweather', serif;
+    background-color:black;
+}
